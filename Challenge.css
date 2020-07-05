@@ -1,0 +1,447 @@
+
+body, html{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Verdana', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#myBtn {
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 99;
+    pointer-events: auto;
+    font-size: 18px;
+   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.5);
+   -webkit-transition: all 0.2s ease-out 0s;
+    background-color: #282828;
+    /* position: relative; */
+    
+  }
+  
+  #myBtn:hover {
+    background-color: #000;
+  }
+  .downArrow{
+      width: 20px;
+
+  }
+
+    .responsive_nav {
+        display: none;
+    }
+    .ipad_style{
+        display: none;
+    }
+
+
+
+
+@media (max-width: 1024){
+    .learn_more2_feature{
+        margin-left: -162px;
+    }
+}
+  @media (max-width: 992px){
+      
+    .responsive_nav{
+        display: block;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99999;
+        box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.15);
+        height: 60px;
+
+    }
+    .openbtn{
+        border: none;
+        background-color: transparent;
+        margin: 0px;
+        float: left;
+        width: 24px;
+        height: 18px;
+        margin-top: -12px;
+        font-size: 30px;
+    }
+    .mobile_logo{
+        height: 60px;
+        padding: 15px 0;
+        max-width: 100%;
+        vertical-align: middle;
+        border: 0;
+        justify-content: center;
+    }
+    .sidebar {
+        height: 100%;
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+        width: 0;
+        z-index: 1000;
+        top: 60px;
+        left: 0;
+        background-color: #1a4d2d;
+        overflow-x: hidden;
+        /* overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px; */
+      }
+      
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      .menu-mobile{
+          height: 42px;
+          line-height: 42px;
+          position: relative;
+          border-bottom: 1px solid #1a1a1a;
+      }
+      .navbar_box{
+          padding: 15px 35px 15px 20px;
+          border-top: 1px solid black;
+        color: white!important;
+        font-size: 15px!important;
+      }
+      .navbar_box:hover{
+          text-decoration: none;
+      }
+      .english_item{
+          opacity: 1;
+          background-color: #fff;
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+          padding: 5px 0;
+          z-index: 99;
+          color: #23527c;
+          font-size: 15px!important;
+          width: 100px;
+          padding-left: 10px !important;
+      }
+      .english_box{
+          min-width: 110px !important;
+          left: 56px;
+          background-color: transparent;
+          border: none;
+          margin-top: -6px;
+      }
+      .notResponsive_nav{
+        display: none;
+      }
+      .none_on_responsive{
+          display: none;
+      }
+      .section_background_left{
+        padding: 60px 160px 90px 100px;
+        width: 100% !important;
+        text-align: center;
+        background: url(./images/back.png);
+        z-index: 99;
+        background-size: none;
+        background-repeat: no-repeat;
+        background-position: none;
+    }
+    .section_background_right{
+    
+        background: no-repeat center left /cover;
+        /* background-image: url(./images/back_right.jpeg); */
+    
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        bottom: 0;
+        right: 0;
+    }
+    .our_story_des{
+        font-size: 24px;
+    }
+    .learn_more2_feature{
+        left: 416px;
+    }
+    .ipad_style{
+        display: block;
+        position: relative;
+    }
+    .whole_back{
+        display: none;
+
+    }
+    .ipad_mindful_recipes{
+        background-image: url(./images/left_back_image.jpeg);
+        background-size: cover;
+        height: 620px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    color: #fff;
+    overflow: hidden;
+    border: 2px solid #fff;
+    vertical-align: middle;
+
+    }
+    .ipad_mindful_products{
+    background-image: url(./images/right_back_image.jpeg);
+    height: 620px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    border: 2px solid #fff;
+    vertical-align: middle;
+
+    }
+    .left_oblique_text{
+        transform: skew(0deg);
+        padding-top:10%;
+    }
+    .right_oblique_text{
+        transform: skew(0deg);
+        padding-top: 10%;
+    }
+    .learn_more4_feature{
+        margin-left: 260px;
+    }
+    .ipad_mindful_products a{
+        margin-left: 300px;
+    }
+    .ipad_mindful_recipes:hover .left_oblique_hover{
+        position: absolute;
+    background:
+    #b65532;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 620px;
+    z-index: 1;
+    opacity: 0.95;
+    }
+    .ipad_mindful_products:hover .right_oblique_hover{
+        position: absolute;
+    background:
+    #f6ba46;
+    top: 620px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.95;
+    }
+    .social_icon{
+        margin-left: 190px;
+    }
+    .mobile_logo{
+        margin-left: -150px;
+    }
+    .carousel_section{
+        margin-top: 60px;
+    }
+  }
+
+@media (max-width: 768px){
+    .section_secondRight_background{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .learn_more2_feature{
+        left: 320px;
+        top: 185px;
+    }
+    .learn_more4_feature{
+        margin-left: 210px;
+    }
+    .ipad_mindful_products a{
+        margin-left: 210px;
+    }
+    .sub_card{
+        max-width: 730px;
+    }
+    .sub_button{
+        width: 170px;
+    }
+    .ipad_mindful_recipes:hover .left_oblique_hover{
+        display: none;
+    }
+    .ipad_mindful_products:hover .right_oblique_hover{
+        display: none;
+    }
+    .section_secondLeft_background{
+        padding-bottom: 5px;
+    }
+}
+
+
+  @media (max-width: 450px) {
+     .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;} 
+    .mobile_logo{
+        margin-top: -35px;
+        margin-left: 11px;
+    }
+    .section_background_left{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .our_story_title{
+        font-size: 65px;
+    }
+    .section_secondLeft_background{
+        padding-left: 0px;
+        margin-left: 15px;
+    }
+    .section_secondLeft_background_img{
+        width:50%;
+        margin-left: 111px;
+    }
+    .section_secondRight_background{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .learn_more2_feature{
+        left: 165px;
+    }
+    .design_back_title{
+        font-size: 35px;
+        margin-left: 25px;
+    }
+    .design_back_text{
+        margin-left: 25px;
+    }
+    .learn_more3_feature{
+        margin-left: 25px;
+    }
+    .front_title{
+        font-size: 43px;
+    }
+    .front_text{
+        font-size: 25px;
+    }
+    .learn_more4_feature{
+        margin-left: 86px;
+    }
+    .ipad_mindful_products a{
+        margin-left: 97px;
+    }
+    .sub_card{
+        max-width: 413px;
+    }
+    .sub_And_button{
+        flex-direction: column;
+    }
+    .card_pic{
+        height: 370px;
+    }
+    .sub_button{
+        width: 100%
+    }
+    .footer_one_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .social_icon{
+        display: flex;
+        flex-direction: row;
+        margin-left: 71px;
+    }
+  }
+  @media (max-width: 430px){
+    .learn_more2_feature{
+        left: 151px;
+        top: 221px;
+    }
+    .sub_card{
+        max-width: 348px;
+        margin-bottom: -12px!important;
+    }
+    .email_input{
+        padding-right: 201px;
+    }
+    .cardTitle_sub{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .our_story_title{
+        font-size: 46px;
+
+    }
+    .section_background_left{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section_secondRight_background{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .learn_more2_feature{
+        left: 110px;
+    }
+    .section_secondLeft_background_img{
+        margin-left: 80px;
+    }
+    .learn_more4_feature{
+        margin-left: 51px;
+    }
+    .ipad_mindful_products a{
+        margin-left: 65px;
+    }
+
+    .sub_card{
+        max-width: 290px;
+        margin-bottom: -45px;
+        padding-right: 22px;
+        padding-left: 22px;
+    }
+    .email_input{
+        padding-right: 16px;
+    }
+    .social_icon{
+        margin-left: 75px;
+    }
+    .footer-copyright{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+  }
+  @media (max-width: 430px){
+      .footer-copyright{
+          padding-right: 15px;
+      }
+      .footer_one{
+          padding-left: 0px;
+          padding-right: 0px;
+      }
+      .sub_card{
+          max-width: 260px;
+      }
+  }
