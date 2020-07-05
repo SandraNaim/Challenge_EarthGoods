@@ -6,24 +6,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Challenge.css">
-    <link rel="stylesheet" type="text/css" href="navbar.css">
-    <link rel="stylesheet" type="text/css" href="discoverShop.css">
-    <link rel="stylesheet" type="text/css" href="ourStory.css">
-    <link rel="stylesheet" type="text/css" href="todayMindful.css">
-    <link rel="stylesheet" type="text/css" href="insta.css">
-    <link rel="stylesheet" type="text/css" href="subscribe.css">
-    <link rel="stylesheet" type="text/css" href="becomeBest.css">
-    <link rel="stylesheet" type="text/css" href="carousel.css">
-    <link rel="stylesheet" type="text/css" href="obliqueMindful.css">
-    <link rel="stylesheet" type="text/css" href="footer.css">
-
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Fondamento:ital@1&family=Lalezar&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Fondamento:ital@1&family=Lalezar&display=swap"
+        rel="stylesheet">
+</head>
+
 <body>
+
+    <!-------------------------------------------Scroll------------------------------------------>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up downArrow"
             aria-hidden="true"></i>
     </button>
 
+    <!-------------------------------------------Navbar------------------------------------------>
     <header class="notResponsive_nav">
         <div class="row not notResponsive_nav">
             <div class="col-md-2">
@@ -52,7 +48,6 @@
                     <li>
                         <a class="navbar_font" href="#">Contact Us</a>
                     </li>
-
                 </ul>
             </div>
             <div class="col-md-2">
@@ -65,7 +60,6 @@
                         placeholder="Enter your keyword.." aria-label="Search" />
                 </div>
             </div>
-
         </div>
     </header>
     <header class="responsive_nav">
@@ -74,18 +68,17 @@
                 <div id="main">
                     <button class="openbtn" onclick="handleMenu()">☰ </button>
                 </div>
-
                 <div id="mySidebar" class="sidebar">
-                    <div >
-
+                    <div>
                         <div class="dropdown" style="text-align: right;">
                             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
                                 EN
                             </button>
-                            <div class="dropdown-menu english_box" >
-                                
-                                <a class="dropdown-item english_item" href="#"><img src="./images/us.png">&nbsp; ENGLISH</a>
+                            <div class="dropdown-menu english_box">
+
+                                <a class="dropdown-item english_item" href="#"><img src="./images/us.png">&nbsp;
+                                    ENGLISH</a>
 
                             </div>
                         </div>
@@ -99,17 +92,15 @@
                         <a class="navbar_box" href="#">News</a>
                         <a class="navbar_box" href="#">Contact Us</a>
                     </div>
-
                 </div>
-
             </div>
             <div class="col-md-10" style="text-align: center;">
                 <img src="./images/logo.png" class="mobile_logo">
             </div>
-
         </div>
     </header>
 
+    <!-----------------------------------------Carousel-------------------------------------->
     <section class="carousel_section">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -139,10 +130,12 @@
             </a>
         </div>
     </section>
+
+    <!----------------------------------------Discover/Shop----------------------------------->
     <section style="padding: 100px 0 70px;">
         <div class="row justify-content-center">
             <div class="col-md-3 section2_box">
-                <div >
+                <div>
                     <img src="./images/icon_box1.png" class="icon_box" alt="icon1">
                 </div>
                 <br>
@@ -179,6 +172,8 @@
             </div>
         </div>
     </section>
+
+    <!----------------------------------------Our Story---------------------------------------->
     <section class="section_background">
         <div class="section_background_left">
             <h2 class="our_story_title">OUR STORY</h2>
@@ -193,6 +188,7 @@
         </div>
     </section>
 
+    <!--------------------------------------Become The Best You--------------------------------->
     <section class="row">
         <div class="section_secondLeft_background col-md-4">
             <img class="section_secondLeft_background_img" src="./images/right_pic.png">
@@ -213,6 +209,7 @@
         </div>
     </section>
 
+    <!----------------------------------------Today's Mindful----------------------------------->
     <section>
         <div class="design_back">
             <h2 class="design_back_title">
@@ -228,9 +225,9 @@
         </div>
     </section>
 
+    <!-----------------------------Mindful Recipes / Mindful Products--------------------------->
     <section class="whole_back">
         <div class="left_oblique_back">
-
             <div class="left_oblique_text my-auto">
                 <h2 class="front_title">
                     Mindful Recipes
@@ -238,7 +235,6 @@
                 <div class="front_text">
                     Feel better in your body with these easy recipes
                 </div>
-
                 <a href="/en/store/recipes/" class="learn_more4_feature">
                     Learn more
                 </a>
@@ -272,7 +268,6 @@
                     <div class="front_text">
                         Feel better in your body with these easy recipes
                     </div>
-    
                     <a href="/en/store/recipes/" class="learn_more4_feature">
                         Learn more
                     </a>
@@ -287,18 +282,16 @@
                     <div class="front_text">
                         Products to accompany you on your journey to a better living
                     </div>
-    
                     <a href="/en/store/products/categories/list/" class="learn_more4_feature">
                         Shop Now
                     </a>
                 </div>
                 <div class="right_oblique_hover"></div>
             </div>
-
         </div>
-
     </section>
 
+    <!----------------------------------------Instagram----------------------------------->
     <section>
         <div class="jumbotron " style="text-align: center;background-color: #fff;">
             <div>
@@ -309,6 +302,8 @@
             </div>
         </div>
     </section>
+
+    <!----------------------------------------Subscribe------------------------------------->
     <section class="sub_back" style="position: relative; background-color: #f0f5f9;">
         <img src="./images/long_back.png" class="card_pic">
         <div class="card sub_card">
@@ -319,12 +314,13 @@
                     <span class="input-group-btn">
                         <button class="sub_button" type="submit"><b>SUBSCRIBE <i
                                     class="fa fa-telegram"></i></b></button>
-
                     </span>
                 </div>
             </div>
         </div>
     </section>
+
+    <!----------------------------------------Footer------------------------------------->
     <section class="footer_one">
         <div class="container-fluid text-center text-md-left">
             <div class="row footer_one_flex">
@@ -342,12 +338,10 @@
                         </li>
                     </ul>
                 </div>
-
                 <hr class="clearfix w-100 d-md-none pb-3" style="margin-top: 30px;">
                 <div class="col-md-3" style="margin-top: 20px;">
                     <h5 class="text-uppercase resources_title">Need Assistance?</h5>
                     <ul class="list-unstyled resources_list">
-
                         <li>
                             <a class="list_re" href="#!">Contact Us</a>
                         </li>
@@ -355,7 +349,6 @@
                             <a class="list_re" href="#!">FAQ</a>
                         </li>
                     </ul>
-
                 </div>
                 <div class="col-md-6">
                     <div class="text-right">
@@ -365,30 +358,23 @@
                         <img class="image_width2" src="./images/footer_ssecondImage.jpg">
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
 
     <footer class="page-footer font-small pt-4">
-
         <div class="footer-copyright footer_bottom row justify-content-between">
             <div class="col-md-4 copyright_left">Copyright @2020-ALL RIGHTS RESERVED </div>
-
             <a class="col-md-4 copyright_middle" style="text-align: center;"> Tailored by <span href="#">Sync</span></a>
-
-            <div class="col-md-4 social_icon" >
+            <div class="col-md-4 social_icon">
                 <a href="#">
                     <img src="./images/inta.png">
                 </a>
                 <a href="#" style="margin-left: 16px;margin-right: -20px;">
                     <img src="./images/facebook.png">
                 </a>
-
             </div>
         </div>
-
     </footer>
 
 
@@ -408,10 +394,8 @@
     <script>
         //Get the button
         var mybutton = document.getElementById("myBtn");
-
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () { scrollFunction() };
-
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
@@ -419,7 +403,6 @@
                 mybutton.style.display = "none";
             }
         }
-
         // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
             document.body.scrollTop = 0;
@@ -433,21 +416,16 @@
             button.setAttribute("onClick", "disAppear()");
             input.setAttribute("class", "form-control mr-sm-2 search_position");
             input.setAttribute("placeholder", "Enter your keyword..");
-
-
         }
-
         function disAppear() {
             let input = document.getElementById("input-I-want");
             let button = document.getElementById("button-appear-disappear");
             button.setAttribute("onClick", "appear()");
             input.setAttribute("class", "form-control mr-sm-2 not-appear");
             input.setAttribute("placeholder", "Enter your keyword..");
-
         }
     </script>
     <script>
-
         function handleMenu() {
             const menu_content = document.querySelector('#main .openbtn').innerHTML;
             if (menu_content.trim() === '☰') {
@@ -459,10 +437,8 @@
         function openNav() {
             document.getElementById("mySidebar").style.width = "250px";
             document.querySelector('#main .openbtn').innerHTML = 'X';
-
             // document.getElementById("main").style.marginLeft = "250px";
         }
-
         function closeNav() {
             document.getElementById("mySidebar").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
@@ -471,5 +447,4 @@
     </script>
 
 </body>
-
 </html>
